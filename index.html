@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="assets/style.css" />
+
+  </head>
+
+  <body>
+    <header id="top">
+      <h1>Prework Study Guide</h1>
+      <img src="assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
+    </header>
+
+    <main>
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <p>HTML (Hypertext Markup Language) is the foundational language used to structure the content on the web. It creates the skeleton for web pages by using various elements, which are enclosed within tags. HTML elements define the different parts of the webpage, such as headers, paragraphs, images, and links.</p>
+
+        <h3>Elements & Tags</h3>
+        <p>HTML is composed of elements, where each element has an opening tag (&lt;tag&gt;), optional content, and a closing tag (&lt;/tag&gt;). Some elements are self-closing, like &lt;img&gt; and &lt;br&gt;.        
+
+        <p>Common structural elements include:</p>
+        <ul>
+          <li>&lt;html&gt; are the root element of an HTML document.</li>
+          <li>&lt;head&gt; contains metadata and links to stylesheets or scripts.</li>
+          <li>&lt;body&gt; contains all the content that is displayed on the web page.</li>
+        </ul>
+
+        <h3>HTML Document Structure</h3>
+        <p>The typical HTML document begins with &lt;!DOCTYPE html&gt; to declare the document as HTML5.</p>
+        
+        <p>The document contains:</p>
+        <ul>
+          <li>&lt;html&gt; is an element, with lang="en" to define the document language.</li>
+          <li>&lt;head&gt; is a section containing metadata and external references like CSS and JS files.</li>
+          <li>&lt;body&gt; is a section for the visible content of the webpage.</li>
+        </ul>
+
+        <h3>Head Element</h3>
+        <p>Contains metadata, which is information not displayed on the page but used by browsers and search engines.</p>
+        
+        <p>Important elements inside &lt;head&gt;:</p>
+        <ul>
+          <li>&lt;meta&gt; defines character sets, viewport settings, and other metadata.</li>
+          <li>&lt;title&gt; defines the page's title (displayed on the browser tab).</li>
+          <li>&lt;link&gt; links external resources, such as CSS files.</li>
+          <li>&lt;script&gt; embeds or links JavaScript files.</li>
+        </ul>
+
+        <h3>Body Element</h3>
+        <p>The &lt;body&gt; contains the content of the webpage. It holds all visible elements such as:</p>
+        <ul>
+          <li>Text &lt;p&gt; is for paragraphs, &lt;h1&gt; to &lt;h6&gt; for headings.</li>
+          <li>Images &lt;img&gt; is for embedding images.</li> 
+          <li>Lists &lt;ul&gt; is for unordered (bulleted) lists, &lt;ol&gt; for ordered (numbered) lists, &lt;li&gt; for list items.</li>
+          <li>Links &lt;a&gt; is for hyperlinks.</li>
+        </ul>
+
+        <h3>Attributes</h3>
+        <p>HTML elements often have attributes, which provide additional information about the element. Attributes are always specified in the opening tag and follow the format name="value".</p>
+        
+        <p>Common attributes include:</p>
+        <ul>
+          <li>id provides a unique identifier for an element.</li>
+          <li>class Cclassifies elements for styling or scripting purposes.</li>
+          <li>src defines the source file for media like images.</li>
+          <li>alt provides alternative text for images, improving accessibility.</li>
+          <li>href specifies the URL in anchor <a> elements.</li>
+        </ul>
+
+        <h3>Semantic HTML</h3>
+        <p>Semantic elements help make the HTML more understandable and accessible. These elements describe their meaning:</p>
+
+        <ul>
+          <li>&lt;article&gt; represents an independent piece of content.</li>
+          <li>&lt;section&gt; groups related content under a thematic section.</li>
+          <li>&lt;nav&gt; contains navigation links.</li>
+          <li>&lt;footer&gt; defines the footer section, usually at the end of the page.</li>
+          <li>&lt;header&gt; defines introductory or navigational content at the top of the page.</li>
+        </ul>
+
+        <p>Semantic HTML improves accessibility, SEO, and the readability of code for other developers.</p>
+
+        <h3>Forms</h3>
+        <p>HTML forms allow users to submit data to a server. The &lt;form&gt; element wraps form controls such as:</p>
+
+        <ul>
+          &lt;input&gt; allows user input (text, passwords, checkboxes, radio buttons).
+          &lt;textarea&gt; for multi-line text input.
+          &lt;button&gt; for submitting or resetting a form.
+          &lt;select&gt; creates a dropdown list.
+        </ul>
+        <p>Important attributes for forms:</p>
+        <ul>
+          <li>action specifies where the form data should be sent.</li>
+          <li>method defines the HTTP method used to send the data (e.g., GET or POST).</li>
+        </ul>
+
+        <h3>Tables</h3>
+        <p>HTML tables are created with &lt;table&gt; and contain:</p>
+
+        <ul>
+          <li>&lt;tr&gt; are table rows.</li>
+          <li>&lt;th&gt; are table headers.</li>
+          <li>&lt;td&gt; are able data cells.</li>
+        </ul>
+
+        <p>Tables are useful for displaying structured data, but modern web design encourages using them only for tabular data, not for page layout.</p>
+
+        <h3>Media Elements</h3>
+        <p>HTML supports embedding various media types like images, videos, and audio:</p>
+
+        <ul>
+          <li>&lt;img&gt; embeds an image.</li>
+          <li>&lt;video&gt; embeds video content.</li>
+          <li>&lt;audio&gt; embeds audio content.</li>
+        </ul>
+
+        <h3>Document Object Model (DOM)</h3>
+        <p>The DOM is a programming interface for web documents. It represents the HTML document as a tree of nodes, where each element and piece of content is a node. JavaScript can manipulate the DOM to update the page dynamically.</p>
+
+        <h3>Common HTML5 Elements</h3>
+        <p>HTML5 introduced several new elements to enhance the semantics and functionality of web pages:</p>
+
+        <ul>
+          <li>&lt;canvas&gt; is for drawing graphics via JavaScript.</li>
+          <li>&lt;audio&gt; and &lt;video&gt; for embedding media without plugins.</li>
+          <li>&lt;progress&gt; and &lt;meter&gt; for displaying progress bars and measurement gauges.</li>
+        </ul>
+
+        <h3>Accessibility & Best Practices</h3>
+        <ul>
+          <li>Use semantic HTML to ensure assistive technologies like screen readers can accurately interpret the content.</li>
+          <li>Include &lt;alt&gt; attributes for all images to provide descriptions.</li>
+          <li>Organize the structure with headings in hierarchical order (&lt;h1&gt;, &lt;h2&gt;, etc.) for clarity.</li>
+        </ul>
+
+      </section>
+   
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <p>Cascading Style Sheets (CSS) is a core language used to control the visual presentation of web pages. While HTML provides the structure, CSS allows developers to specify how elements should be styled and positioned on the page, making a website more visually engaging and easier to use. CSS is an essential tool for separating the content of a webpage from its design.</p>
+
+        <p>CSS works by selecting HTML elements and applying styles such as colors, fonts, layouts, and spacing. Styles are applied through rules written in a CSS file or embedded directly in HTML using the &lt;style&gt; tag.</p>
+
+        <h3>CSS Selectors</h3>
+        <p>CSS selectors define which HTML elements you want to style. There are various types of selectors:</p>
+        <ul>
+          <li><strong>Element Selector</strong> targets specific HTML elements, such as h1 or p.</li>
+          <li><strong>Class Selector</strong> targets elements with a specific class attribute, using a period (e.g., .example-class).</li>
+          <li><strong>ID Selector</strong> argets a single element with a unique ID, using a hash symbol (e.g., #example-id).</li>
+          <li><strong>Attribute Selector</strong> targets elements based on attributes (e.g., input[type="text"]).</li>
+          <li><strong>Universal Selector</strong> targets all elements on the page (e.g., *).</li>
+          <li><strong>Descendant Selector</strong> targets elements that are descendants of another element (e.g., div p for all p tags inside a div).</li>
+        </ul>
+
+        <h3>CSS Properties</h3>
+        <p>There are numerous CSS properties that define how elements appear on the page:</p>
+        <ul>
+          <li><strong>Color and Background</strong> controls the text color (color), background color (background-color), and background images (>background-image).</li>
+          <li><strong>Font and Text</strong> sets font family (font-family), size (font-size), weight (font-weight), and spacing properties (letter-spacing, line-height).</li>
+          <li><strong>Box Model</strong> defines the layout of elements using margin, padding, border, and width/height to control spacing around and inside elements.</li>
+          <li><strong>Positioning</strong> positions elements using properties like position (static, relative, absolute, or fixed), z-index, and top/right/bottom/left to define their placement on the page.</li>
+          <li><strong>Display and Visibility</strong> controls how elements are rendered with display (e.g., block, inline, flex, grid) and visibility.</li>
+        </ul>
+      
+        <h3>Responsive Design</h3>
+        <p>Responsive design ensures that a webpage looks good on all screen sizes, from desktops to mobile phones. This is achieved using:</p>
+        <ul>
+          <li><strong>Media Queries</strong> are CSS rules that apply styles based on the width of the viewport or screen (e.g., @media (max-width: 600px)).</li>
+          <li><strong>Flexible Layouts</strong> use relative units like percentages or em remof fixed units like pixels.</li>
+          <li><strong>CSS Flexbox</strong> is a layout model that arranges elements in flexible rows and columns, allowing for responsive alignment and distribution of space.</li>
+          <li><strong>CSS Grid</strong> is a powerful layout system for creating complex, two-dimensional grid-based layouts with rows and columns.</li>
+        </ul>
+
+        <h3>Cascading and Inheritance</h3>
+        <p>CSS follows a cascading order, meaning that styles can be inherited from parent elements and multiple rules can apply to the same element. The cascade determines which styles take precedence:</p>
+        <ul>
+          <li><strong>Specificity</strong> determines which styles are applied based on how specific the selector is. IDs are more specific than classes, which are more specific than element selectors.</li>
+          <li><strong>Inheritance</strong> comes from when CSS properties are inherited from parent elements to child elements, such as font styles and text colors.</li>
+          <li><strong>Importance</strong> is the !important rule can be used to override other styles, but should be used sparingly.</li>
+        </ul>
+
+        <h3>External vs. Internal Styles</h3>
+        <p>CSS can be applied to a webpage in several ways:</p>
+        <ul>
+          <li><strong>Inline CSS</strong> are styles applied directly within an HTML element using the style attribute (e.g., h1 style="color: blue";).</li>
+          <li><strong>Internal CSS</strong> are styles written inside a &lt;style&gt; element within the HTML &lt;head&gt; section.</li>
+          <li><strong>External CSS</strong> are separate CSS file linked to the HTML document using the &lt;link&gt; element. This is the preferred method as it keeps the HTML clean and allows for global styling across multiple pages.</li>
+        </ul>
+
+        <h3>CSS Frameworks and Preprocessors</h3>
+        <p>To speed up development, CSS frameworks like Bootstrap provide prebuilt components and responsive design tools. Preprocessors like SASS and LESS allow developers to write more modular and efficient CSS, using features like variables, mixins, and nested rules.</p>
+
+      </section>
+   
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <p>Git is a version control system that tracks changes to project files and helps developers collaborate efficiently. Here's an overview of its essential features and commands:</p>
+        <ul>
+          <li>Version Control: Git enables you to keep track of changes made to your project over time, allowing you to revert to previous versions if necessary.
+          <li>Repository (Repo): A repository is the directory where Git stores all the versions of a project, including its files and commit history.</li>
+          <li>Branching: Git allows you to create branches, which are isolated versions of your project. This lets you work on new features or fixes without affecting the main codebase</li>
+          <li>GitHub: GitHub is a popular platform for hosting Git repositories, enabling collaborative work, issue tracking, and code reviews.</li>
+        </ul>
+
+        <h3>Common Git Commands</h3>
+        <ul>
+          <li>git init - initializes a new Git repository in your project folder.</li>
+          <li>git clone [URL] - copies an existing repository from a remote server (like GitHub) to your local machine.</li>
+          <li>git add [file] - stages changes for commit. You can use git add . to stage all changes.</li>
+          <li>git commit -m "message" - commits the staged changes with a descriptive message.</li>
+          <li>git push - uploads your local changes to the remote repository (e.g., GitHub).</li>
+          <li>git pull - fetches and merges changes from the remote repository to your local copy.</li>
+          <li>git status - isplays the current state of your working directory and staging area.</li>
+          <li>git branch - lists all branches in the repository. You can also create new branches with this command.</li>
+          <li>git checkout [branch] - switches to the specified branch.</li>
+          <li>git merge [branch] - merges changes from the specified branch into the current branch.</li>
+        </ul>
+
+      </section>
+   
+      <section class="card" id="javascript-section">
+        <h2>Javascript</h2>
+        <p>JavaScript (JS) is a programming language that adds interactivity and logic to web pages. It allows users to interact with the web page by responding to events such as button clicks, form submissions, or other browser actions. JavaScript is executed on the client-side (in the browser) and can dynamically update content without reloading the page.</p>
+
+        <h3>Key Concepts of JavaScript</h3>
+        <p>Variables store data that can be used and manipulated throughout your code. You can declare variables using var, let, or const.</p>
+        <ul>
+          <li>var - function-scoped or globally-scoped variable.</li>
+          <li>let - block-scoped variable.</li>
+          <li>const - block-scoped constant, which cannot be reassigned.</li>
+        </ul>
+
+        <p>JavaScript supports several data types, including:</p>
+        <ul>
+          <li>String - text values, e.g., "Hello, world!"</li>
+          <li>Number - numeric values, e.g., 42</li>
+          <li>Boolean - logical values (true or false)</li>
+          <li>Array - a list of values, e.g., ['HTML', 'CSS', 'JS']</li>
+          <li>Object - key-value pairs representing more complex data, e.g., { name: "Cheyenna", age: 25 }</li>
+        </ul>
+
+        <p>Functions are reusable blocks of code that perform tasks or calculate values. Functions can take parameters and return values.</p>
+        
+        <p>Conditional statements allow your program to perform different actions based on different conditions.</p>
+        <ul>
+          <li>if/else - basic conditional logic.</li>
+          <li>switch - selects one of many blocks of code to be executed.</li>
+        </ul>
+
+        <p>Loops repeat a block of code while a condition is true.</p>
+        <ul>
+          <li>for - repeats code a specific number of times.</li>
+          <li>while - repeats code as long as a condition is true.</li>
+        </ul>
+
+        <p> JavaScript can listen for and respond to user events like clicks, keypresses, or mouse movements. Events allow dynamic interaction between users and web pages.</p>
+
+        <h3>DOM Manipulation</h3>
+        <p>The Document Object Model (DOM) is an interface for interacting with HTML elements using JavaScript. The DOM represents the structure of a webpage, allowing you to dynamically change the content, structure, and style of the page.</p>
+        <ul>
+          <li>Selecting Elements - JavaScript can select and manipulate HTML elements based on their ID, class, tag, or other attributes.</li>
+          <li>Modifying Elements - JavaScript allows you to change the content or style of an element.</li>
+          <li>Creating and Adding Elements - you can create new elements and append them to the DOM.</li>
+        </ul>
+
+        <h3>JavaScript Best Practices</h3>
+        <ul>
+          <li>Keep it modular- write small, reusable functions to make your code easier to manage and debug.</li>
+          <li>Use meaningful variable names - this makes your code easier to read and understand.</li>
+          <li>Error handling - use try/catch blocks to handle errors gracefully.</li>
+          <li>Comment your code - comments help explain what your code is doing.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p class="p2">I can code!</p>
+    </footer>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
